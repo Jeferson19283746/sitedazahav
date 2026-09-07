@@ -33,11 +33,11 @@ npm run dev
 npm run build
 ```
 
-O GitHub Actions valida automaticamente o build em cada Pull Request.
+O GitHub Actions valida automaticamente o build em cada Pull Request. O build da V2 foi validado com sucesso.
 
 ## Publicação
 
-O projeto é estático e pode ser publicado em Vercel, Cloudflare Pages, Netlify ou outra hospedagem compatível com Vite. Para rotas SPA, configure fallback de todas as rotas para `/index.html`.
+O projeto é estático e está preparado para Vercel, Cloudflare Pages, Netlify ou outra hospedagem compatível com Vite. O arquivo `vercel.json` já inclui o fallback necessário para as rotas SPA.
 
 ## Contato
 
