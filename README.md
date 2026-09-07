@@ -20,6 +20,16 @@ Novo site institucional e comercial da Zahav Digital, construído isoladamente n
 - `/sobre` — Sobre a Zahav
 - `/contato` — Diagnóstico inicial
 
+## Estado atual
+
+- identidade visual premium azul, branco e preto
+- marca Zahav aplicada no header e footer
+- apresentação visual da plataforma/CRM
+- SEO específico por rota
+- navegação responsiva
+- formulário seguro, sem contato fictício
+- build validado no GitHub Actions
+
 ## Desenvolvimento
 
 ```bash
@@ -39,6 +49,6 @@ O GitHub Actions valida automaticamente o build em cada Pull Request. O build da
 
 O projeto é estático e está preparado para Vercel, Cloudflare Pages, Netlify ou outra hospedagem compatível com Vite. O arquivo `vercel.json` já inclui o fallback necessário para as rotas SPA.
 
-## Contato
+## Próximas integrações
 
-O site não contém telefone, e-mail ou WhatsApp fictício. O formulário está preparado visualmente e deve ser conectado ao canal/CRM oficial quando os dados públicos da Zahav forem confirmados.
+O site não contém telefone, e-mail ou WhatsApp fictício. O formulário deve ser conectado ao canal/CRM oficial quando os dados públicos da Zahav forem confirmados. As imagens originais da plataforma e os arquivos oficiais da marca podem substituir ou complementar as representações visuais assim que forem enviados ao repositório como assets binários.
